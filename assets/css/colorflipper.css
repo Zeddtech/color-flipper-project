@@ -1,7 +1,6 @@
-
 html {
- line-height: 1.15;
- -webkit-text-size-adjust: 100%;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
 }
 header,
 section,
@@ -11,8 +10,8 @@ footer,
 article,
 figure,
 hgroup {
- display: block;
- width: 100%;
+  display: block;
+  width: 100%;
 }
 
 /*
@@ -81,11 +80,10 @@ Global Styles
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 body {
   font-family: var(--ff-secondary);
-  background:hsl(210, 36%, 96%);
+  background: hsl(210, 36%, 96%);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -111,8 +109,7 @@ h1 {
 }
 
 h2 {
-  font-size:2rem;
-  
+  font-size: 2rem;
 }
 h3 {
   font-size: 1.25rem;
@@ -132,8 +129,7 @@ p {
     font-size: 2.5rem;
   }
 
-
-h3 {
+  h3 {
     font-size: 1.75rem;
   }
   h4 {
@@ -151,8 +147,7 @@ h3 {
 }
 /*  global classes */
 
-section
- .section {
+section .section {
   padding: 5rem 0;
 }
 
@@ -167,14 +162,14 @@ section
   }
 }
 main {
-  min-height: 100vh;
+  
   display: grid;
   place-items: center;
 }
 @media screen and(max-width:400) {
-    nav header {
-        min-width: 100vw;
-    }
+  nav header {
+    min-width: 100vw;
+  }
 }
 
 /* 
@@ -211,11 +206,11 @@ nav a {
   color: var(--clr-primary-1);
   letter-spacing: var(--spacing);
   margin-right: 1rem;
-  transition: all .2s linear;
-  -webkit-transition: all .2s linear;
-  -moz-transition: all .2s linear;
-  -ms-transition: all .2s linear;
-  -o-transition: all .2s linear;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
 }
 nav a:hover {
   color: var(--clr-primary-5);
@@ -226,7 +221,7 @@ Container
 ===============
 */
 main {
-  min-height: calc(100vh - 3rem);
+  min-height: calc(100vh - 4rem);
   display: grid;
   place-items: center;
 }
@@ -241,9 +236,8 @@ main {
   margin-bottom: 2.5rem;
 }
 .color {
-  color:  rgba(241,245,248,1);
+  color: rgba(241, 245, 248, 1);
   text-transform: none;
-   
 }
 .btn-hero {
   font-family: var(--ff-primary);
