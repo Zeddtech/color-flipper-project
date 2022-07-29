@@ -1,0 +1,26 @@
+{
+  "name": "color-flipper",
+  "version": "1.0.0",
+  "description": "A simple website that generate random color Hex, Rgb, Rgba",
+  "main": "colorflipper-hex.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detrinity27/color-flipper-project.git"
+  },
+  "keywords": [
+    "color",
+    "fliper",
+    "vanilla",
+    "javascript",
+    "project"
+  ],
+  "author": "Agwunobi sopulu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/detrinity27/color-flipper-project/issues"
+  },
+  "homepage": "https://github.com/detrinity27/color-flipper-project#readme"
+}
